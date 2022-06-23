@@ -5,10 +5,11 @@
 for usage in a browser
 
 npm install webpack
-'src' is default folder for webpack to look for thr source code thats to be bundled
+
+'src' is default folder for webpack to look for the source code thats to be bundled
 'index.js' is the default file that webpack looks out for
 'dist' is the default bundle folder generated on cmd 'npx webpack'
-'main.js' is the resultant bundled file thats generated
+'main.js' is the resultant bundled file thats generated inside 'dist' folder
 
 ECMAscript latest version  is supported by webpack by default, so 'import' can be used instead of const.
 eg: import tripleMe from './tripleMe' 
